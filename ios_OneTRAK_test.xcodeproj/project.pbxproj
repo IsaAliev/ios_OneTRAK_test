@@ -13,6 +13,7 @@
 		CEDB37191F0E988400C758FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDB37171F0E988400C758FD /* Main.storyboard */; };
 		CEDB371B1F0E988400C758FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDB371A1F0E988400C758FD /* Assets.xcassets */; };
 		CEDB371E1F0E988400C758FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDB371C1F0E988400C758FD /* LaunchScreen.storyboard */; };
+		CEDB37271F0EA0FE00C758FD /* UITextField+DisableCopyPaste.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDB37261F0EA0FE00C758FD /* UITextField+DisableCopyPaste.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CEDB371A1F0E988400C758FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDB371D1F0E988400C758FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDB371F1F0E988400C758FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDB37251F0EA0FE00C758FD /* UITextField+DisableCopyPaste.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DisableCopyPaste.h"; sourceTree = "<group>"; };
+		CEDB37261F0EA0FE00C758FD /* UITextField+DisableCopyPaste.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DisableCopyPaste.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CEDB371C1F0E988400C758FD /* LaunchScreen.storyboard */,
 				CEDB371F1F0E988400C758FD /* Info.plist */,
 				CEDB370E1F0E988400C758FD /* Supporting Files */,
+				CEDB37251F0EA0FE00C758FD /* UITextField+DisableCopyPaste.h */,
+				CEDB37261F0EA0FE00C758FD /* UITextField+DisableCopyPaste.m */,
 			);
 			path = ios_OneTRAK_test;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				CEDB37161F0E988400C758FD /* ViewController.m in Sources */,
 				CEDB37131F0E988400C758FD /* AppDelegate.m in Sources */,
 				CEDB37101F0E988400C758FD /* main.m in Sources */,
+				CEDB37271F0EA0FE00C758FD /* UITextField+DisableCopyPaste.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
