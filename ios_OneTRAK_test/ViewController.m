@@ -64,6 +64,13 @@ NSInteger DefaultPower = 2;
 
 #pragma mark Private Methods
 
+/**
+ * @brief Returns the result of a number raised to a power.
+ * @param number Number which you want to be powered
+ * @author Isa Aliev
+ * @param power Power which you want the number to be raised to
+ * @return Number raised to power of power parameter
+ */
 -(NSInteger)raiseNumber:(NSInteger)number toPowerOf:(NSInteger)power {
     
     if (power==1) {
